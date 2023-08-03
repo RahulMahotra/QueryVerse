@@ -1,7 +1,7 @@
 # SQL Query App - Atlan Frontend Task
 
 This is a web-based application to run SQL queries on given data built specifically for the Atlan's frontend internship task.<br>
-The application is deployed at : **https://sql-query-app-atlan.netlify.app/**
+The application is deployed at : **https://gorgeous-phoenix-db4fe1.netlify.app**
 
 ## Features
 
@@ -20,14 +20,15 @@ The application is deployed at : **https://sql-query-app-atlan.netlify.app/**
 
 - **[web.dev](https://web.dev/measure)**: Load time according to web.dev is **1.2 seconds**. The site scored **100 points in performance** and **100 points in best practices**.
 - **[GTmetrix](https://gtmetrix.com/)**: Fully loaded time is **0.5 seconds**, with first contentful paint at **0.4 seconds**. Site received an A grade also. The exact metrics are:
-    - **Speed Index**: `1.0s`
-    - **First Contentful Paint**: `0.4s`
-    - **Largest Contentful Paint**: `0.4s`
-    - **Time to Interactive**: `0.4s`
-    - **Total Blocking Time**: `0ms`
-    - **Cumulative Layout Shift**: `0`
+  - **Speed Index**: `1.0s`
+  - **First Contentful Paint**: `0.4s`
+  - **Largest Contentful Paint**: `0.4s`
+  - **Time to Interactive**: `0.4s`
+  - **Total Blocking Time**: `0ms`
+  - **Cumulative Layout Shift**: `0`
 
 ## Optimizations
+
 - Zero to no use of extra packages to make application lightweight.
 - Used Tailwind CSS to purge all unused css in production leading to increase in performance.
 
